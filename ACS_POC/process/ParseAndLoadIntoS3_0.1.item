@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Q2IB11qwpz50QSMzsyum44O7z/vPlGeGGiwgQplA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OEYau33ht+vMeGTa+s56m9hXyVao/1GBEVK+8MXR"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:l1ZV5y3BszfocQZVaeFVpiY4X3Le6Rq3XFhGmIdr"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:U8Xut2vNLjprYbfTYN2bXnMOG9PAbW3dZfIU2f85"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -392,7 +392,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIA4O4MSNKQWADISWPL&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:TkjHnv0bqTVJ6axq2AyZWgSGf0aOCfhuO8pDBdoegGyFW+xjd2bp34SMGqQjf4GgXlMgwOp2JK8EfLyHC17gduonUXye0Q=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:uyFU74+/L9Fuj1Ggv3U8tIzzOqxQkv3l/jR33PyqKyGw0XBj4po06QBEZSMbliCcJnX2kkFfgIe/z+6l3I3seSBo0rN3mg=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;arn:aws:iam::856603912865:role/ACS_ETL_POC&quot;"/>
@@ -404,8 +404,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:gODKqZFQ+O1yqXcCUUqHHehGfZhtolWTjNt5naEZ"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:RKXYGfCMoeOd4xVTmfw9Ncaq9aHZ+0iJKPsh0rK7"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:kkyiOh2FwSpWTmq68UWLoEux9CL4FWa23SvWNuou"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:A2dlzK6zEkbG0132qg/fVPjVh1wSbS42NJ8vDT2G"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -436,7 +436,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:0/WMmVpr1gGkp2XI8a4o7ZwPey8pySZW639jhVHX"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:vZ0xyi0bKoDNEXNkRW2hbfOq3qT8+Enod1NlBfUI"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -448,8 +448,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:kbHb53SUtpLpeyxAdVP91RhkygHS/xt4byNAsvpp"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:kpHoo3K7xhDxf0xgYpB1P/lPqh5Z+hOxoqlBLD9c"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:LYOjUEMSf1+ZfibeuJQ+CNfIO/c1/eFIdIwdAx0V"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:zAooN8SIt864nj87Q5ldsmQ9xpsQqmNGBIBhmwp1"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -496,7 +496,7 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/roster/person&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="userid"/>
-      <elementValue elementRef="QUERY" value="&quot;../person/@userid&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;userid&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value="2"/>
@@ -633,13 +633,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4aab811f-f192-42ac-94ab-a9e2484bb6f2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y7heiPFlD9VBlsFWx6VhOPHXF890GsXPlDivMbS1s4o4ZfLi+SYpO+D9nbP+7L7O9eEz5Frl3IEs&#13;
-R02QFdyDmg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_55c1ee0f-cb61-4e48-81fd-c3d936c0d6a3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L5zND1yDfB0ru4hEYabAK9GxTt1lRuhtAXU/WWbfJ6nqXKDFPandLK97H3mmtrrTxaApcZ8dU8VW&#13;
-bOjlkc6WGA==</DigestValue></Reference></SignedInfo><SignatureValue>iICiO0gYFtMNj4BD+XdHwgyYGJj4LhuO3t3RT+bRScyckVSQOCfUyjxoJng4ghuy3RVj+ZED+Hrw&#13;
-Qmww9yNKmE7LXSM26SEdZ0YPpdcaUuTb8IasxR309zypnH8vZ8f6lKyQfGA7MsqpPOkwfSbeWzAJ&#13;
-6pfUtAgqc/1tZ7M7DIQ3Y4vmFsI9fCpwYSxzsijHNdJmgYZUYa3f7DGgC6PqpJ6COD/DVDgyh9ch&#13;
-WNUHr679zRrDyRMPZgCduTRWSnjELbMASI1/DLqEbgonbfEpYw3VZo790BgV5ZeMvIj9HW9BbwAO&#13;
-xbedQAe6fptLpKWv7uVURsiWF/U1ZtZoG0Qlzw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b556d245-6295-4a40-a706-39f928cde86f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/TAxbegPEHAMx2ydrr26WPbaxmRl3TtDA3eIf0a8ePCIebxpbEPK9fEaG9wk0vzG5g8dVrGveoAx&#13;
+ZQnSNAesvg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_204a7b89-c7ed-45a5-b457-635f0c13c7ec"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pjzGhilgWu9VdyW+Vu4kkyhvmLQof2oHI9U0TN2WV6BjLK7vZ/gFQF2XyPAb+BOj65MJwXCs0FK7&#13;
+fRSQ1mcwIg==</DigestValue></Reference></SignedInfo><SignatureValue>T8sz5r56vJp2OJ4EeimcQwQS6THhKvyY9sFMuN05EkMQb8TK0Q5hp1qFU/49k2zG9DFHX2GecG0E&#13;
+I2N57joE9kcLWI71a0MlMpNnHqIftllN/laR0LQLTPNxsBIhPyvLAm/qQye1A4aHF+oM9k3ArauB&#13;
+7RYpJcxnGt3JmVpRiRfndiu4OKM/F7ROaRou5gcLKiWkjz7FZsjKKV9SU6Pl3MXyEnVZmqMVA46k&#13;
+6UtiMbwuN+IRT+7w+dcRUjuPeuTDsEjDoZ5XbJwdx/9FyCg0jnaxH7+sNR933ygwBsRIfRc82Uyj&#13;
+teNfevXOur3a+mtVNqjI3V4XnztrkujNOsWejQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -661,4 +661,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_55c1ee0f-cb61-4e48-81fd-c3d936c0d6a3" Target="#_4aab811f-f192-42ac-94ab-a9e2484bb6f2"><Timestamp>2020-07-09 17:34:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_204a7b89-c7ed-45a5-b457-635f0c13c7ec" Target="#_b556d245-6295-4a40-a706-39f928cde86f"><Timestamp>2020-07-09 17:35:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
