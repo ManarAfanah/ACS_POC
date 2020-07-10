@@ -303,6 +303,7 @@
     <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
     <module>jobs/process/namerosterparseandloadintos3_0.1</module>
     <module>jobs/process/documentlistparseandloadintos3_0.1</module>
+    <module>jobs/process/ACS_Logs/rosterfilelogs_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
