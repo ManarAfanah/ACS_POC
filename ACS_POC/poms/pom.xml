@@ -33,7 +33,6 @@
     <module>jobs/process/Sample/Examples/sayhello_0.1</module>
     <module>jobs/process/Sample/t01_Compo/LogError/tlogcatcher2_0.1</module>
     <module>jobs/process/Webinar/ADMIN/job_log_start_0.1</module>
-    <module>jobs/process/parseandloadintos3_0.1</module>
     <module>jobs/process/Sample/t01_Compo/XML/tadvancedfoxml_0.1</module>
     <module>jobs/process/Sample/Hortonworks_Sandbox_Samples/PIG/pig_innerjoin_0.1</module>
     <module>jobs/process/Sample/t01_Compo/ELT/Generic/generic_elt_step2_0.1</module>
@@ -302,6 +301,7 @@
     <module>jobs/process/Sample/t01_Compo/Misc/tserveralive_0.1</module>
     <module>jobs/process/Sample/t01_Compo/Databases/SCD/tmysqlscd_0.1</module>
     <module>jobs/process/Sample/TUTO79/cif_customer_parsing_0.1</module>
+    <module>jobs/process/namerosterparseandloadintos3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
