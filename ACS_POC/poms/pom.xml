@@ -307,6 +307,7 @@
     <module>jobs/process/ACS_ODS/rosternames_loadintos3_0.1</module>
     <module>jobs/process/ACS_ODS/documentlist_loadintos3_0.1</module>
     <module>jobs/process/ACS_ODS/namesroster_loadintos3_0.1</module>
+    <module>jobs/process/ACS_ODS/copy_of_namesroster_loadintos3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
