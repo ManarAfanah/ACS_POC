@@ -306,6 +306,7 @@
     <module>jobs/process/testingsftp_0.1</module>
     <module>jobs/process/ACS_ODS/namesroster_loadintos3_0.1</module>
     <module>jobs/process/ACS_ODS/documentlist_loadintos3_0.1</module>
+    <module>jobs/process/ACS_ODS/testingsnowflake_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
