@@ -1156,9 +1156,17 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "METERDATAPLATFORM:_U8UzQFzaEeqQdIku8RggrQ",
+    "id" : "ACS_POC:_79rkoMLEEeqPoqS9cwZ2OA",
     "version" : "Latest",
     "type" : "job"
+  }, {
+    "id" : "METERDATAPLATFORM:_jZvUUFy0EeqQdIku8RggrQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_kdsy4MMWEeq3gYZ_Kar9Hw",
+    "version" : "Latest",
+    "type" : "property"
   }, {
     "id" : "_lbKPcMH_EeqaqZ-V_x4LzQ",
     "version" : "Latest",
