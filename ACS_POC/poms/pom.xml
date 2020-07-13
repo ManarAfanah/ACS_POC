@@ -309,6 +309,7 @@
     <module>jobs/process/ACS_ODS/namesroster_loadfroms3tosnowflake_0.1</module>
     <module>jobs/process/ACS_DW/namesrostertransformation_odstodw_0.1</module>
     <module>jobs/process/ACS_ODS/documentlist_loadfroms3tosnowflake_0.1</module>
+    <module>jobs/process/ACS_DW/documentlisttransformation_odstodw_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
