@@ -7870,6 +7870,10 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "_eKmK4MR7EeqYkfU7EYnbOg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_oFXOQMSkEeqYkfU7EYnbOg",
     "version" : "Latest",
     "type" : "property"
@@ -7933,6 +7937,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_eKmK4MR7EeqYkfU7EYnbOg - ODS_ROSTER_TALEND",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
