@@ -224,7 +224,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.acs_poc.job</groupId>
-      <artifactId>RosterFileLogs</artifactId>
+      <artifactId>DocumentListLog2</artifactId>
       <version>0.1.0</version>
     </dependency>
   </dependencies>
