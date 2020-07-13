@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_fymt4MSkEeqYkfU7EYnbOg" xmi:version="2.0">
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_db" prompt="Snowflake_DW_ACS_POC_db?" promptNeeded="false" type="id_String" value="ERDS" xmi:id="_fymt4cSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_account" prompt="Snowflake_DW_ACS_POC_account?" promptNeeded="false" type="id_String" value="keyrus.us-east-1" xmi:id="_fymt4sSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_userPassword_userId" prompt="Snowflake_DW_ACS_POC_userPassword_userId?" promptNeeded="false" type="id_String" value="ManarAfana" xmi:id="_fymt48SkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_customRegionID" prompt="Snowflake_DW_ACS_POC_customRegionID?" promptNeeded="false" type="id_String" value="" xmi:id="_fymt5MSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_loginTimeout" prompt="Snowflake_DW_ACS_POC_loginTimeout?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_fymt5cSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_role" prompt="Snowflake_DW_ACS_POC_role?" promptNeeded="false" type="id_String" value="" xmi:id="_fymt5sSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_schemaName" prompt="Snowflake_DW_ACS_POC_schemaName?" promptNeeded="false" type="id_String" value="DW" xmi:id="_fymt58SkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_userPassword_password" prompt="Snowflake_DW_ACS_POC_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:1DKqPLUrC7OcpMASI0e34hR/4994/fJNVLEfoonBN+JdUnZK/FKlg1E=" xmi:id="_fymt6MSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_authenticationType" prompt="Snowflake_DW_ACS_POC_authenticationType?" promptNeeded="false" type="id_String" value="BASIC" xmi:id="_fymt6cSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_jdbcParameters" prompt="Snowflake_DW_ACS_POC_jdbcParameters?" promptNeeded="false" type="id_String" value="" xmi:id="_fymt6sSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_region" prompt="Snowflake_DW_ACS_POC_region?" promptNeeded="false" type="id_String" value="AWS_US_WEST" xmi:id="_fymt68SkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_keyAlias" prompt="Snowflake_DW_ACS_POC_keyAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_fymt7MSkEeqYkfU7EYnbOg"/>
+  <contextParameter comment="" name="Snowflake_DW_ACS_POC_warehouse" prompt="Snowflake_DW_ACS_POC_warehouse?" promptNeeded="false" type="id_String" value="ACS_ETL_WH" xmi:id="_fymt7cSkEeqYkfU7EYnbOg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ded5f780-55fa-4894-b9d4-67f34758dbbc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IUn7IO+TEXmU+yqnBMkTjf8HujSmRo7CJzl8+lSZaKm7XyGYRSt9EwD1tqS8hsK7rdtJ9h2uD751&#13;
+hbL3m+AQzw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d8759255-a75c-4841-96ed-e584d05b4324"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8SPKNmAUngJa4WFckZgNV6+X4KZFhXJvysCQ9GugLl7DRGqCyo9b+ebwBSru1Y32d2eB/S4mMZhL&#13;
+GfZ+2W+HzA==</DigestValue></Reference></SignedInfo><SignatureValue>Yb2JSKG5v0d4DKaSeyW8LLAP1zHz/1KTWdq0WRYCKYWsMz+dDMfjzdjXvzeTCBnr+oyNgnFspwXg&#13;
+B9AmtTt8WiZz/wY1KM9dcg9VkCWRgJEbsgcmZCVEXO9vvLft5fbp9MDA9UWxg3dnEb+NxWKaUNGq&#13;
+YER3QRzxFllpBhRxfSL0DcHMlshS4KKvdEYLtyZm5zzXvAYie7GgCtZw5FHejHZ0wyTrmnUKKBCL&#13;
+ysZSLO+vWQgW5RWURt9Pp7U3avOvk+D6xM1kLCsgZoJJGzVdvR07AMrgF4uown7SUZlPX2/xO1G4&#13;
+sLpVAwl87Hqhkxe/SRxpYE2itUwjeGIZl42zVQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d8759255-a75c-4841-96ed-e584d05b4324" Target="#_ded5f780-55fa-4894-b9d4-67f34758dbbc"><Timestamp>2020-07-13 01:02:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
