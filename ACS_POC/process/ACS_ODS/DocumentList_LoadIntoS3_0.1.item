@@ -55,7 +55,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:81gx2pq2nGvn2Cx8tkFt51h9UJ64MzqQnH0GLuJ/"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:CjBFyBVseJPR1BNtojo2lxZq/mJzxKQMQFmjP13a"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -90,7 +90,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:S8LdPIVcHsJJdtsDRezv/53psM3dfnJfGejUwrwz"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DbraIQRfA3CG/bTmsQ2X2Mtcw+FoR//PWYWxce6y"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -132,7 +132,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIA4O4MSNKQWADISWPL&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:z1ZerLrWl0w/Te0QlsWYoGpFVITYaE8rwNpLFascqShb2kr9tx+LdVsRY6GrkxoyrRw+dlnhiJ1roczIspng3+qvTJltdQ=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:Duk+a/dDIRRhvT2FpPuP0eWvzFtLi72OUWYKcBRLF2D1mteTLn5MNxmiAaNOiyQugo06BmkAitGGgkXBwhUY3nVaMPPyNw=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;arn:aws:iam::856603912865:role/ACS_ETL_POC&quot;"/>
@@ -144,8 +144,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:L6VJhLbIVb7arN4hsCzibdRH3uPsy2ksMSxn4A16"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:cGS4JAT5Rjv28pJIxExinWiwptfpJH8xcMWu9Xte"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:6Nw0uzD1WxvZ9JafdIQ1r/Sf7EPCMYrjWw4ge937"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:6wgxxUfSqS+eixhMQ0lrDohMzCSkLzGhKK9n56Lc"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -165,7 +165,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:8+iqhy5hT0X95ESg985V+VVII1ERdYwQ1sTKeLpI"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:JCYSyOSlgDJ6lMkq6DBFJZ4S1nP5L8t7ZI97YjGC"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -177,8 +177,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:e1u5mgAvPAfV5UnC49vSiwSNcph0e2/MG0EgiyTo"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:beLnxAlQ8BITzoaTsOWY1Z0RY980Perw1KPqSBIL"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:ivTNBqFfchGxKXg9R9cn/rX2l22jlhuak8rmCMh1"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:Gzez/PXnOkhH+dYyEDKpoy14NScO0Mt6OCjeBY13"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -245,7 +245,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:WzjzwgHj8JSbE0ibX0fbz8sbPzhPmvPp1KA11ANy"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:9ss/4TXRerf/UAmdD4LEFsDE3wYJ+1JKUxPKMC1v"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -273,7 +273,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:hPEPGnyr6pUunPOWUvBEk2vFeeVzaRwXbNTEQeDv"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:wMZPA//A1W6ePtAyRlqNCvzX5b7YelHjxo8XMcTz"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -342,14 +342,14 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;acs-poc-user&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Qjz1kftHe5HYVbwMBNVlbK8jFdZMbX3aDjtbtiul"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:3oQvADCUgBbGQzVOlntJNc3iYVwcA2hT3I5mvonE"/>
     <elementParameter field="CHECK" name="SFTP" show="false" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PUBLICKEY"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;C:/Users/User/Downloads/id_rsa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:gbw3jra6PSOChMFkqB/Qp2qKd1VQEEyKvHF+U8I6"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:RhMuESxF3uyMXMvXgLjnt+8lmROoT48teNtGbLme"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:sbIbkkPR3dBnzkeyySW0yrAfxJ2hEm7wOz+z3ECY"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:qDVI8ZeDsY2h3srPg/GP8eEUd8cr3zBth5NsA2eq"/>
     <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.DirectoryLocation"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="&quot;/erds-landing-zone/Raw Data&quot;"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
@@ -371,7 +371,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:VY93gkdzAPOH5tHyuQsmfuXWsyxFJ/kJYpAXmron"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:o0bIH1b8/6pC/hbxrQBsPlK5kj4ebPdztMPJnLvm"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
     <elementParameter field="CHECK" name="PRINT_MESSAGE" value="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
@@ -388,14 +388,14 @@
     <elementParameter field="TEXT" name="PORT" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="990"/>
     <elementParameter field="TEXT" name="USER" value="&quot;acs-poc-user&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xWaCWS+XDm6PwOLQhlvR4s7E4aiL+BF84i2BTo41"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TiGMY1756JkSF/FLyY5kZD1wxViBvi0+WgvukKCP"/>
     <elementParameter field="CHECK" name="SFTP" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:XhJfUNvuQ30L5FSM9n3vR3Hk0Z7xkjXRH98G02SFI+xGRDYf"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:bOYyuXHw0q0f4CKQe4ydsHO9+kbGlrwzeucrzzs97eCiU8t+"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PUBLICKEY"/>
     <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;C:/Users/User/Downloads/id_rsa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:Elksfd1EJD1ObIOYHoRVY52YoHGp5GKRNdKDBiXb"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:4/z5FAjo2vlBDpEy5m/C1X44fAykL0sIsjk6guMs"/>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
     <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
@@ -405,7 +405,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:2Ry3/SppqRSXyB8RvTHsWQ6fxQMdDaVnQU7k2BXV"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:dw6N914pfzzgoFDgQevu2iWbU3DVzMUPc7l5WwMY"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
     <elementParameter field="CHECK" name="REMOTE_VERIFICATION" show="false" value="true"/>
@@ -467,6 +467,111 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="CommentToAuthor"/>
       <elementValue elementRef="QUERY" value="&quot;/taskResponse/@commentsToAuthor&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="documentNo"/>
+      <elementValue elementRef="QUERY" value="&quot;@documentNo&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="title"/>
+      <elementValue elementRef="QUERY" value="&quot;@title&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subtitle"/>
+      <elementValue elementRef="QUERY" value="&quot;@subTitle&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="submittedDate"/>
+      <elementValue elementRef="QUERY" value="&quot;@submittedDate&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="revisionNo"/>
+      <elementValue elementRef="QUERY" value="&quot;@revisionNo&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="documentType"/>
+      <elementValue elementRef="QUERY" value="&quot;@documentType&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="unSubmitedDate"/>
+      <elementValue elementRef="QUERY" value="&quot;@unSubmittedDate&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="externalId"/>
+      <elementValue elementRef="QUERY" value="&quot;@externalid&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="documentPublicationTypeId"/>
+      <elementValue elementRef="QUERY" value="&quot;@documentPublicationTypeId&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="revisionDueDate"/>
+      <elementValue elementRef="QUERY" value="&quot;@revisionDueDate&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dateDeleted"/>
+      <elementValue elementRef="QUERY" value="&quot;@dateDeleted&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="msTrackingGuid"/>
+      <elementValue elementRef="QUERY" value="&quot;@msTrackingGuid&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="archiveDate"/>
+      <elementValue elementRef="QUERY" value="&quot;@archiveDate&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="authorCorresponding"/>
+      <elementValue elementRef="QUERY" value="&quot;author/@corresponding&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorContact"/>
+      <elementValue elementRef="QUERY" value="&quot;author/@contact&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorFirstName"/>
+      <elementValue elementRef="QUERY" value="&quot;author/@authorFirstName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorLastName"/>
+      <elementValue elementRef="QUERY" value="&quot;author/@authorLastName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorPersonRefUserId"/>
+      <elementValue elementRef="QUERY" value="&quot;author/personRef/@userid&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorPersonRefGuid"/>
+      <elementValue elementRef="QUERY" value="&quot;author/personRef/@guid&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorPersonRefORCID"/>
+      <elementValue elementRef="QUERY" value="&quot;author/personRef/@orcid&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentAddress1"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@address1&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentAddress2"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@address2&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentCity"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@city&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentPostalCode"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@postalCode&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentStateName"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@stateName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentCountryName"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@countryName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentCountryCode"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@countryCode&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentInstitutionName"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@intitutionName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentTitle"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@title&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AuthorDepartmentringgoIDID"/>
+      <elementValue elementRef="QUERY" value="&quot;author/department/@ringgoIdId&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentTaskStatus"/>
+      <elementValue elementRef="QUERY" value="&quot;documentTask/@status&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentTaskStartDate"/>
+      <elementValue elementRef="QUERY" value="&quot;documentTask/@startDate&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocuemtnTaskTaskRefTaskName"/>
+      <elementValue elementRef="QUERY" value="&quot;documentTask/taskRef/@taskName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocuemtnTaskTaskRefWorkflowName"/>
+      <elementValue elementRef="QUERY" value="&quot;documentTask/taskRef/@workflowName&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocuemtnTaskTaskRefCommentsToAuthor"/>
+      <elementValue elementRef="QUERY" value="&quot;documentTask/taskResponse/@commentsToAuthor&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
@@ -488,10 +593,80 @@
     <metadata connector="FLOW" name="tFileInputXML_3">
       <column comment="" key="false" length="-1" name="Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CommentToAuthor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentNo" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="subtitle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="submittedDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="revisionNo" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentType" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="unSubmitedDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="externalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentPublicationTypeId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="revisionDueDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dateDeleted" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="msTrackingGuid" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="archiveDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="authorCorresponding" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorContact" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorFirstName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorLastName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefUserId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefGuid" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefORCID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentAddress1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentAddress2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentStateName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCountryName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCountryCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentInstitutionName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentTitle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentringgoIDID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocumentTaskStatus" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocumentTaskStartDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefTaskName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefWorkflowName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefCommentsToAuthor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="-1" name="Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CommentToAuthor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentNo" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="subtitle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="submittedDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="revisionNo" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentType" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="unSubmitedDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="externalId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="documentPublicationTypeId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="revisionDueDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dateDeleted" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="msTrackingGuid" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="archiveDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="authorCorresponding" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorContact" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorFirstName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorLastName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefUserId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefGuid" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorPersonRefORCID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentAddress1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentAddress2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentStateName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCountryName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentCountryCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentInstitutionName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentTitle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AuthorDepartmentringgoIDID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocumentTaskStatus" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocumentTaskStartDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefTaskName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefWorkflowName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DocuemtnTaskTaskRefCommentsToAuthor" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -527,6 +702,41 @@
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="Id" nullable="true" type="id_String"/>
         <mapperTableEntries name="CommentToAuthor" nullable="true" type="id_String"/>
+        <mapperTableEntries name="documentNo" nullable="true" type="id_String"/>
+        <mapperTableEntries name="title" nullable="true" type="id_String"/>
+        <mapperTableEntries name="subtitle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="submittedDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="revisionNo" nullable="true" type="id_String"/>
+        <mapperTableEntries name="documentType" nullable="true" type="id_String"/>
+        <mapperTableEntries name="unSubmitedDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="externalId" nullable="true" type="id_String"/>
+        <mapperTableEntries name="documentPublicationTypeId" nullable="true" type="id_String"/>
+        <mapperTableEntries name="revisionDueDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="dateDeleted" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="msTrackingGuid" nullable="true" type="id_String"/>
+        <mapperTableEntries name="archiveDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="authorCorresponding" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorContact" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorFirstName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorLastName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorPersonRefUserId" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorPersonRefGuid" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorPersonRefORCID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentAddress1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentAddress2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentCity" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentPostalCode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentStateName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentCountryName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentCountryCode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentInstitutionName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentTitle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AuthorDepartmentringgoIDID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DocumentTaskStatus" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DocumentTaskStartDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="DocuemtnTaskTaskRefTaskName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DocuemtnTaskTaskRefWorkflowName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DocuemtnTaskTaskRefCommentsToAuthor" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -587,7 +797,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;AKIA4O4MSNKQZX6WZFG3&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:Ofv65+xnYIEQQa4vaKRdlm4YpezmMuzOILZz3Z0DPPZk4Sdmejh2gblw4iZE5bKBcWN8SCbgd8lU8agkUymY39NpUo4ZxT7coVA="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:bPtOXK22gCmb8k2SaInYS/6LGTk1Iy63M0V7+qSizx7r+OqObUs+qW9rgJ3kQpj69ChDtocZDVK0PZ9JHe4mvUpeuV8PaAPsuu0="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -641,6 +851,116 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_3" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="revisionNo"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocumentType"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="documentNo"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="msTrackingGuid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="submittedDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="title"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="documentPublicationTypeId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="unSubmitedDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="externalId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="documentType"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentCountryName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorLastName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorPersonRefORCID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentCity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorPersonRefGuid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentPostalCode"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentStateName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentringgoIDID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="archiveDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="revisionDueDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocuemtnTaskTaskRefTaskName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentCountryCode"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentAddress1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentAddress2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorPersonRefUserId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorFirstName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="authorCorresponding"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocuemtnTaskTaskRefCommentsToAuthor"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocuemtnTaskTaskRefWorkflowName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentInstitutionName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorDepartmentTitle"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="dateDeleted"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocumentTaskStartDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subtitle"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AuthorContact"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DocumentTaskStatus"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
@@ -750,13 +1070,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;0;128"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="233;160;233"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_104d6a55-00fd-40dc-818d-a537ec064f03"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QP3a2uY+oYaGS5FVV0wKDD+vhfEh+wUs2gHmXUD+2O0RSHsrYBrOnpQMTXB6jeRg8zGDEZrRFxVW&#13;
-O84Jjl+lew==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3839907d-c9d9-4edb-8505-f9b3787c9c35"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dAUTx5rJGPwIFJsgfs2yRxzJJqZRVXRwphuhWPKMOSFZC856A9Ch5GR2dCp+QQeH0U3T0aIwQwj5&#13;
-3wJ59gn5LA==</DigestValue></Reference></SignedInfo><SignatureValue>p3PHYuZOMoM95JVbbis25Yggqg6cHV6W0UfGOcX1nuOHJowDLmCall9E6nj+plyQXIz9aW9y6TgF&#13;
-I6Kosp6+2mZc6ROtARMScZxJfWxgUw8EWhIiqFauy5TfTDabdfIXmAvSWMADtNyxhHDoqjqJopeb&#13;
-6SmwP04vllyznTX219/b2yxjnvVLRFYBsCw+YtjEsN0BTnrlwgVLVAvHa7qIjHoj40/a5VJoQEKO&#13;
-sNKJc8kJoow4Y9yxw/VCbfc5KVpl5byEGMIeEByHkvU2VOp5Ih9oWC4K7ISOj8dusEC+o51XFfCd&#13;
-mPSTxMI/Gn2bsoMshRL+ME0hEszRBH8v3C/KjA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1bb5cab6-3830-4b4a-8642-a96268047ec8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NRlLL0SBBVxEgkLtTTqAzvSqcxN7Bys5tbcJXTOKnHIMa9e7BQbtV0tdvzlvt+VxGI2cOh3MlYw/&#13;
+xgshbO/UTA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f2f7a9fe-fb2f-45cf-88d6-28b15d35e833"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4iDWwETJJ9KWKczSuCiqIfYsDVihYIf9my6AChKKs+IPGpexrUToZrVAEx4iagsXUblJ2Gv/OyOY&#13;
+5tkgPJDYUw==</DigestValue></Reference></SignedInfo><SignatureValue>DCOLII9QDa/fZi3TgljenekZll1PERbDJ0K4iS+Vgy5uAcXeJOcPJGtpuyJeujLh9B4hXDAdA3S+&#13;
+dfMIfTxRPpCgeShVhdMVWFddI/xLoiq1pW1M1Dh45cpuSfq16Shu9d1p2fAwyZtATTmBG4i/Z5fa&#13;
+RHEMXzVfO5wiTeQ2plwNLymNgH/OZeAmqLfVRb/fLLZJ4sxBQZeLLy1tIdrDtDn8G3SBtZPywoYA&#13;
+BRoI9tLdgrB1DdhYaoQIFbrhbKCg9zMe2O1kpeAhVATiVwuFrmwjEpnjgFoY7lt1fngJmAD8EZTS&#13;
+X+QCU5PG5+d4YeIUvuF3ZXqiXlOlsbsrH+McdQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -778,4 +1098,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3839907d-c9d9-4edb-8505-f9b3787c9c35" Target="#_104d6a55-00fd-40dc-818d-a537ec064f03"><Timestamp>2020-07-13 00:08:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f2f7a9fe-fb2f-45cf-88d6-28b15d35e833" Target="#_1bb5cab6-3830-4b4a-8642-a96268047ec8"><Timestamp>2020-07-13 15:13:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
