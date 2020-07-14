@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fq/zYsdNXMM13wDMVle7CmOFMM7QhCXLFzP0d9P5"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:VFMGRtyNeRirct1dGEEcE1m3qhqsd2he1ztH5FP9"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RT8S6HzqfN55zw4dXm0adF2N2WxesLznm/ScrT/L"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3c0l2XNgFtE/KlSxttG/BiNtLAdjnHgEH7ki48PI"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,7 +117,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIA4O4MSNKQWADISWPL&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:LCFWpj1UAYCXVAe7c/Di6Q2x2jU7DRhYpfMM+1KaETKzVWPT3VoBrz+MpcCx7CX71BlKKwnPKtOjc3LEOlCaBWKJHfmkIg=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:0xadMIHIpbEVvvsvvz4Je6D+SYcI9FQHNfqKeTwqTZygyygqXgj8KB1CeWB+eylhze+bDeCmXF2ONndd08HIDk/ihAVUVA=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;arn:aws:iam::856603912865:role/ACS_TALEND_AssumeRole&quot;"/>
@@ -129,8 +129,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:ia8yUNdnF5UGJFz4/gZeKHdz/WihJqokGqbo7Kpp"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:XeHB85xDFhMk5Ip8vF1mK35k2Rkps32DPGChWZmN"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:m6QlrRUN7PxVvTBhEWQQTXcoAhtbr0+GknJfIz0v"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:IJOiywRr9BdpSPy7pGJ1i7w//G2TxfASsULiVACX"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -164,7 +164,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:LY+Zgpea1te1WiYEELAR/7uf97ZfNxQbLmufhf1J"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:s+9qORrifN4hOZtFc5D747IR8/6VNPhAf569ft3A"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -190,7 +190,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:LybTD6b/6jUsl3cnt70o0LEft+/AVf//KwUhcDA3"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:Egf0B4kQ7K1PmTa5EsnqXZ9mRSmqmk6YTs31BMjv"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -202,8 +202,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:JHEkAWjcwvj2A0LbVkhSuAG7WJyEvm+WJkffhTcQ"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:TxKgVjAsMH0+tuFfmG+hnZbit3QBAhqjqdFmnBYI"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:nYsqxbjYUISndtofPd04izmLu1PXz/tEuwfNTK65"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:YqIMJtuaOh0BbjkWwKxblhslDpkP8sWbj+bdKeOb"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -287,7 +287,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ERDS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:J8C5Fy+MuLdTp5IpndqfDgbuS6Awvtbt29piqAVC+4JJbAOumrEwxKBxDA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DZ1Dfzyo2OQDFJ3Nt9lVlSI4p9xvGmhn24Y/nu5xUQyoEuV/yW5enfkATg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
@@ -417,7 +417,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:CpjYS4fNvHt6p+pFgjv3h2S+gbVfLpqb20ZnWfSZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:iqCtoNjk1cpFurGnHerFf9UqXc1EFmvEWRwc+PzA"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;COUNTRY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -656,7 +656,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mjyVeMSNz/m8Ti/AoFANFchaEHMMysHrca80MmQO"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KfjmloAqAW2ikAIs0thE88mKrpHulJ9st93+yTpW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;COUNTRY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -1528,7 +1528,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_3">
       <column comment="" key="false" length="31" name="_MANUSCRIPT_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_MANUSCRIPT_REVISION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_REVISION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="25" name="_URL_DOI_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DOI_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_JOURNAL_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1540,43 +1540,43 @@
       <column comment="" key="false" length="182" name="_MANUSCRIPT_TITLE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="88" name="_MANUSCRIPT_TITLE_ASCII_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="825" name="_MANUSCRIPT_COMMENTS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="608" name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="413" name="_MANUSCRIPT_RUNNING_HEAD_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="484" name="_MANUSCRIPT_ABSTRACT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1368" name="_PREVIOUS_MANUSCRIPT_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="552" name="_DOTS_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="899" name="_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="762" name="_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="607" name="_START_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="469" name="_END_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="342" name="_ABI_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_START_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_END_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ABI_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="304" name="_BATCH_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1244" name="_CHART_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_CHART_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="501" name="_COLOR_APPROVED_EDITOR_OFFICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="222" name="_COLOR_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLOR_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="178" name="_COLOR_LIST_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="_COLUMBUS_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLUMBUS_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="392" name="_COPYRIGHT_RECEIVED_COLUMBUS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="503" name="_COPYRIGHT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="296" name="_COPYRIGHT_VALID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1271" name="_COUNTRY_ORIGIN_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="382" name="_COVER_ART_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="242" name="_COVER_ART_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="204" name="_COVER_ART_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COVER_ART_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COVER_ART_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="143" name="_COVER_ART_GRAPHIC_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="272" name="_EDITOR_OFFICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="111" name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="161" name="_EDITOR_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_EDITOR_REVISED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_REVISED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_EXTERNAL_CHANGES_RECEIVED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="70" name="_EXTERNAL_CHANGES_APPROVED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="276" name="_FIGURES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_FIGURES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="111" name="_FREELANCE_EDITED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="481" name="_FREELANCE_EDITOR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="54" name="_GIDS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_GIDS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="198" name="_HOT_PAPER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="112" name="_ISSUE_PLANNING_NOTES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="128" name="_MANUSCRIPT_PRIORITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_PRIORITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_MANUSCRIPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_MANUSCRIPT_SUBTYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_NEWSWORTHY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1587,131 +1587,131 @@
       <column comment="" key="false" length="9" name="_ORIGINAL_MEDIA_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="51" name="_ORIGINAL_SOFTWARE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="_OCRED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_SIZE_DECIMAL_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_SIZE_ROUNDED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_COUNT_TAGGING_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_COUNT_TECH_EDIT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_SIZE_DECIMAL_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_SIZE_ROUNDED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_COUNT_TAGGING_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_COUNT_TECH_EDIT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="45" name="_GRAPHIC_FORMATS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="117" name="_INTENDED_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="41" name="_INTENDED_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_INTENDED_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="_PROOF_AUTHOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="_PROOF_AUTHOR_NAME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="_PROOF_DELIVERY_METHOD_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_PROOF_LINK_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_PROOF_SECURITY_KEY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_REVISED_PROOF_REQUIRED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SCHEMES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SCHEMES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SI_COLOR_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SI_FILES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SI_PAGES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SI_FILES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SI_PAGES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SI_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SPECIAL_ISSUE_TITLE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_SYNOPSIS_DEPTH_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SYNOPSIS_DEPTH_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SYNOPSIS_GRAPHIC_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_TABLES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_WEO_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_PROOF_COLOR_PAGES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_TABLES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WEO_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PROOF_COLOR_PAGES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="_PROOF_COLOR_PAGE_COUNT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_WEB_SUBMIT_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_REJECT_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_FIRST_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_WEB_POSTING_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_JAM_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ASAP_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_REJECT_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_FIRST_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WEB_POSTING_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_JAM_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ASAP_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_FIRST_EDITED_WEB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ISSUE_MAIL_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_MAIL_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOFIRSTDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOFINALDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOACCEPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOREJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOCOLSRECVD_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ACCEPTTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_JAMTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_JAMTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_JAMTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EMBARGO_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EMBARGO_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EMBARGO_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_REJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_JAM_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_NEWSWORTHY_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUB_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_RESUB_DUEDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_RESUB_DUEDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_DOCNO_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_DOCFLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ORIG_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ORIG_PROOF_COMMENTS_RCVD_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_PROOF_COMMENTS_RCVD_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_FORM_AWAITING_COMPLETION_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_UNSUBMITTED_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_UNSUBMITTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_UNSUBMITTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EDITOR_CHOICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EDITOR_CHOICE_CANDIDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="_EDITOR_CHOICE_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EDITOR_CHOICE_READY_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_CHOICE_READY_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_ABANDONED_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_NO_FUNDER_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_TRANSFERRED_TO_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="_TRANSFERRED_FROM_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ORIG_EDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_ORIG_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_EDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="_DECISION_RECOMMENDATION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="_AEDECRECTOFINALDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="_AEDECRECTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="_AEDECRECTOACCEPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_AEDECRECTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_AEDECRECTOREJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_ADDITIONAL_PRODINFO_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_SECTION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_SPECIAL_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_REVISION_DUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_MSC_DELETED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_WITHDRAWN_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_REVISION_DUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MSC_DELETED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WITHDRAWN_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_PRESS_RELEASE_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="_PRESS_RELEASE_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="31" name="_MANUSCRIPT_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_MANUSCRIPT_REVISION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_REVISION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="25" name="_URL_DOI_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DOI_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_JOURNAL_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1723,43 +1723,43 @@
       <column comment="" key="false" length="182" name="_MANUSCRIPT_TITLE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="88" name="_MANUSCRIPT_TITLE_ASCII_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="825" name="_MANUSCRIPT_COMMENTS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="608" name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="413" name="_MANUSCRIPT_RUNNING_HEAD_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="484" name="_MANUSCRIPT_ABSTRACT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1368" name="_PREVIOUS_MANUSCRIPT_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="552" name="_DOTS_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="899" name="_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="762" name="_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="607" name="_START_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="469" name="_END_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="342" name="_ABI_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_START_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_END_PAGE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ABI_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="304" name="_BATCH_NUMBER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1244" name="_CHART_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_CHART_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="501" name="_COLOR_APPROVED_EDITOR_OFFICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="222" name="_COLOR_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLOR_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="178" name="_COLOR_LIST_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="_COLUMBUS_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLUMBUS_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="392" name="_COPYRIGHT_RECEIVED_COLUMBUS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="503" name="_COPYRIGHT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="296" name="_COPYRIGHT_VALID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1271" name="_COUNTRY_ORIGIN_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="382" name="_COVER_ART_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="242" name="_COVER_ART_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="204" name="_COVER_ART_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COVER_ART_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COVER_ART_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="143" name="_COVER_ART_GRAPHIC_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="272" name="_EDITOR_OFFICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="111" name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="161" name="_EDITOR_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_EDITOR_REVISED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_RECEIVED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_REVISED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_EXTERNAL_CHANGES_RECEIVED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="70" name="_EXTERNAL_CHANGES_APPROVED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="276" name="_FIGURES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_FIGURES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="111" name="_FREELANCE_EDITED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="481" name="_FREELANCE_EDITOR_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="54" name="_GIDS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_GIDS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="198" name="_HOT_PAPER_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="112" name="_ISSUE_PLANNING_NOTES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="128" name="_MANUSCRIPT_PRIORITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_PRIORITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_MANUSCRIPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_MANUSCRIPT_SUBTYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_NEWSWORTHY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1770,125 +1770,125 @@
       <column comment="" key="false" length="9" name="_ORIGINAL_MEDIA_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="51" name="_ORIGINAL_SOFTWARE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="_OCRED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_SIZE_DECIMAL_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_SIZE_ROUNDED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_COUNT_TAGGING_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="_PAGE_COUNT_TECH_EDIT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_SIZE_DECIMAL_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_SIZE_ROUNDED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_COUNT_TAGGING_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PAGE_COUNT_TECH_EDIT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="45" name="_GRAPHIC_FORMATS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="117" name="_INTENDED_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="41" name="_INTENDED_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_INTENDED_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_VOLUME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_INTENDED_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="_PROOF_AUTHOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="_PROOF_AUTHOR_NAME_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="_PROOF_DELIVERY_METHOD_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_PROOF_LINK_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_PROOF_SECURITY_KEY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_REVISED_PROOF_REQUIRED_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SCHEMES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SCHEMES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SI_COLOR_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SI_FILES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_SI_PAGES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SI_FILES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SI_PAGES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SI_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SPECIAL_ISSUE_TITLE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_SYNOPSIS_DEPTH_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_SYNOPSIS_DEPTH_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_SYNOPSIS_GRAPHIC_PRESENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_TABLES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="_WEO_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_PROOF_COLOR_PAGES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_TABLES_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WEO_QUANTITY_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PROOF_COLOR_PAGES_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="_PROOF_COLOR_PAGE_COUNT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="80" name="_WEB_SUBMIT_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_REJECT_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_FIRST_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_WEB_POSTING_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="80" name="_JAM_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ASAP_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_REJECT_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_FIRST_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DECISION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WEB_POSTING_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_JAM_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ASAP_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_FIRST_EDITED_WEB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ISSUE_MAIL_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_MAIL_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ISSUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOFIRSTDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOFINALDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOACCEPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOREJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_DYNSUBTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_DYNSUBTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_DYNSUBTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOCOLSRECVD_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ACCEPTTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ACCEPTTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ACCEPTTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="_JAMTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_JAMTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_JAMTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOASAP_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOASAP_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOJAM_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOJAM_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOWEBPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COLSRECVDTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COLSRECVDTOPRINT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_COLSRECVDTOPRINT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EMBARGO_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EMBARGO_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EMBARGO_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_REJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_JAM_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_NEWSWORTHY_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUB_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_RESUB_DUEDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_RESUB_DUEDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_DOCNO_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_DOCFLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ORIG_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_PROOF_LINK_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="_ORIG_PROOF_COMMENTS_RCVD_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_PROOF_COMMENTS_RCVD_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_FORM_AWAITING_COMPLETION_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_UNSUBMITTED_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_UNSUBMITTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_UNSUBMITTED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EDITOR_CHOICE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_EDITOR_CHOICE_CANDIDATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="_EDITOR_CHOICE_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EDITOR_CHOICE_READY_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_CHOICE_READY_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_ABANDONED_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_RESUBMIT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_NO_FUNDER_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_OBJECT_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_TRANSFERRED_TO_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="_TRANSFERRED_FROM_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_ORIG_EDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_ORIG_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_EDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_ORIG_COEDITOR_ID_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="_DECISION_RECOMMENDATION_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="_AEDECRECTOFINALDEC_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="_AEDECRECTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOACCEPT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="_AEDECRECTOACCEPT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="_AEDECRECTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_AEDECRECTOREJECT_DAYS_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_AEDECRECTOREJECT_TYPE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_ADDITIONAL_PRODINFO_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_SECTION_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_SPECIAL_ISSUE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_REVISION_DUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_MSC_DELETED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="_WITHDRAWN_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_REVISION_DUE_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_MSC_DELETED_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="_WITHDRAWN_DATE_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="_PRESS_RELEASE_FLAG_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="_PRESS_RELEASE_COMMENT_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -2642,7 +2642,7 @@
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
         <mapperTableEntries name="_MANUSCRIPT_NUMBER_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_REVISION_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_MANUSCRIPT_REVISION_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_URL_DOI_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_DOI_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_JOURNAL_ID_" nullable="true" type="id_String"/>
@@ -2654,43 +2654,43 @@
         <mapperTableEntries name="_MANUSCRIPT_TITLE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_MANUSCRIPT_TITLE_ASCII_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_MANUSCRIPT_COMMENTS_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_MANUSCRIPT_TRANSMISSION_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_MANUSCRIPT_RUNNING_HEAD_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_MANUSCRIPT_ABSTRACT_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PREVIOUS_MANUSCRIPT_NUMBER_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_DOTS_OBJECT_ID_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_VOLUME_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ISSUE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_START_PAGE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_END_PAGE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ABI_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_VOLUME_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_ISSUE_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_START_PAGE_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_END_PAGE_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_ABI_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_BATCH_NUMBER_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_CHART_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_CHART_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLOR_APPROVED_EDITOR_OFFICE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLOR_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLOR_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLOR_LIST_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLUMBUS_RECEIVED_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLUMBUS_RECEIVED_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_COPYRIGHT_RECEIVED_COLUMBUS_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_COPYRIGHT_TYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_COPYRIGHT_VALID_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_COUNTRY_ORIGIN_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_COVER_ART_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COVER_ART_VOLUME_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COVER_ART_ISSUE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COVER_ART_VOLUME_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_COVER_ART_ISSUE_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COVER_ART_GRAPHIC_ID_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_EDITOR_OFFICE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EDITOR_RECEIVED_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EDITOR_REVISED_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_EDITOR_OFFICE_ACCEPTED_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_EDITOR_RECEIVED_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_EDITOR_REVISED_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_EXTERNAL_CHANGES_RECEIVED_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_EXTERNAL_CHANGES_APPROVED_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_FIGURES_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_FIGURES_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_FREELANCE_EDITED_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_FREELANCE_EDITOR_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_GIDS_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_GIDS_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_HOT_PAPER_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_ISSUE_PLANNING_NOTES_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_PRIORITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_MANUSCRIPT_PRIORITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_MANUSCRIPT_TYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_MANUSCRIPT_SUBTYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_NEWSWORTHY_" nullable="true" type="id_String"/>
@@ -2701,125 +2701,125 @@
         <mapperTableEntries name="_ORIGINAL_MEDIA_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_ORIGINAL_SOFTWARE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_OCRED_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PAGE_SIZE_DECIMAL_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PAGE_SIZE_ROUNDED_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PAGE_COUNT_TAGGING_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PAGE_COUNT_TECH_EDIT_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_PAGE_SIZE_DECIMAL_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_PAGE_SIZE_ROUNDED_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_PAGE_COUNT_TAGGING_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_PAGE_COUNT_TECH_EDIT_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_GRAPHIC_FORMATS_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_INTENDED_VOLUME_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_INTENDED_ISSUE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_INTENDED_ISSUE_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_INTENDED_VOLUME_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_INTENDED_ISSUE_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_INTENDED_ISSUE_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_PROOF_AUTHOR_ID_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PROOF_AUTHOR_NAME_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PROOF_DELIVERY_METHOD_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PROOF_LINK_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PROOF_SECURITY_KEY_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_REVISED_PROOF_REQUIRED_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_SCHEMES_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_SCHEMES_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_SI_COLOR_PRESENT_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_SI_FILES_QUANTITY_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_SI_PAGES_QUANTITY_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_SI_FILES_QUANTITY_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_SI_PAGES_QUANTITY_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_SI_PRESENT_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_SPECIAL_ISSUE_TITLE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_SYNOPSIS_DEPTH_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_SYNOPSIS_DEPTH_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_SYNOPSIS_GRAPHIC_PRESENT_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_TABLES_QUANTITY_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_WEO_QUANTITY_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PROOF_COLOR_PAGES_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_TABLES_QUANTITY_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_TABLE_GRAPHICS_QUANTITY_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_WEO_QUANTITY_" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_PROOF_COLOR_PAGES_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_PROOF_COLOR_PAGE_COUNT_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_WEB_SUBMIT_FLAG_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_REJECT_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_FIRST_DECISION_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DECISION_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_WEB_POSTING_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_JAM_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ASAP_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_MANUSCRIPT_SUBMISSION_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_MANUSCRIPT_DYNAMIC_SUB_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_MANUSCRIPT_ACCEPTANCE_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_REJECT_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_FIRST_DECISION_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_DECISION_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_WEB_POSTING_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_JAM_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_ASAP_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_FIRST_EDITED_WEB_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ISSUE_MAIL_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ISSUE_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ISSUE_MAIL_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_ISSUE_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_DYNSUBTOFIRSTDEC_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOFIRSTDEC_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOFINALDEC_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOFINALDEC_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOACCEPT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOACCEPT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOACCEPT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOREJECT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOREJECT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOREJECT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOASAP_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOASAP_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOASAP_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOJAM_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOJAM_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOJAM_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOWEBPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOWEBPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_DYNSUBTOPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_DYNSUBTOPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_DYNSUBTOPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ACCEPTTOCOLSRECVD_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_ACCEPTTOCOLSRECVD_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ACCEPTTOASAP_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ACCEPTTOASAP_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_ACCEPTTOASAP_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ACCEPTTOJAM_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ACCEPTTOJAM_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_ACCEPTTOJAM_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ACCEPTTOWEBPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_ACCEPTTOWEBPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ACCEPTTOPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ACCEPTTOPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_ACCEPTTOPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_JAMTOASAP_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_JAMTOASAP_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_JAMTOASAP_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLSRECVDTOASAP_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLSRECVDTOASAP_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLSRECVDTOASAP_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLSRECVDTOJAM_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLSRECVDTOJAM_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLSRECVDTOJAM_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLSRECVDTOWEBPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLSRECVDTOWEBPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COLSRECVDTOPRINT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COLSRECVDTOPRINT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_COLSRECVDTOPRINT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EMBARGO_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_EMBARGO_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_EMBARGO_TYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_REJECT_TYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_JAM_FLAG_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_NEWSWORTHY_COMMENT_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_RESUB_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_RESUB_DUEDATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_RESUB_DUEDATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_RESUBMIT_DOCNO_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_RESUBMIT_DOCFLAG_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ORIG_PROOF_LINK_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_PROOF_LINK_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_ORIG_PROOF_LINK_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_PROOF_LINK_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_ORIG_PROOF_COMMENTS_RCVD_DATE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PROOF_COMMENTS_RCVD_DATE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_FORM_AWAITING_COMPLETION_FLAG_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_UNSUBMITTED_FLAG_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_UNSUBMITTED_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_UNSUBMITTED_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_EDITOR_CHOICE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_EDITOR_CHOICE_CANDIDATE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_EDITOR_CHOICE_COMMENT_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EDITOR_CHOICE_READY_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_EDITOR_CHOICE_READY_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_EDITOR_CHOICE_PUB_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_ABANDONED_FLAG_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_RESUBMIT_ID_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_NO_FUNDER_FLAG_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_OBJECT_ID_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_OBJECT_ID_" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="_TRANSFERRED_TO_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_TRANSFERRED_FROM_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_COEDITOR_ID_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ORIG_EDITOR_ID_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_ORIG_COEDITOR_ID_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_COEDITOR_ID_" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="_ORIG_EDITOR_ID_" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="_ORIG_COEDITOR_ID_" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="_DECISION_RECOMMENDATION_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_AEDECRECTOFINALDEC_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_AEDECRECTOFINALDEC_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_AEDECRECTOACCEPT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_AEDECRECTOACCEPT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_AEDECRECTOACCEPT_TYPE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_AEDECRECTOREJECT_DAYS_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_AEDECRECTOREJECT_DAYS_" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="_AEDECRECTOREJECT_TYPE_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_ADDITIONAL_PRODINFO_FLAG_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_SECTION_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_SPECIAL_ISSUE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_REVISION_DUE_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_MSC_DELETED_DATE_" nullable="true" type="id_String"/>
-        <mapperTableEntries name="_WITHDRAWN_DATE_" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_REVISION_DUE_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_MSC_DELETED_DATE_" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="_WITHDRAWN_DATE_" nullable="true" type="id_Date"/>
         <mapperTableEntries name="_PRESS_RELEASE_FLAG_" nullable="true" type="id_String"/>
         <mapperTableEntries name="_PRESS_RELEASE_COMMENT_" nullable="true" type="id_String"/>
       </inputTables>
@@ -2836,7 +2836,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:OcfoxC50ELuFXCv2s6ZzQkVOVe6JmBEV+zl8TlOd"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/snsHFEYnI13DJ4xcJOSnAvmsAY1YtsL42FxXmvm"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MV_MANUSCRIPT&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -5092,7 +5092,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TJgiT4zr4l2PaN1S5QXhN2xWloWypQcDxhu5TCR0"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8mpjXYtuu/zDFe2EKrGH7suRbgUYz8k6xdinr128"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Journal&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -5650,7 +5650,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1O68a/zhdowtif7uFNmKZSXyUNovW6S05r2RvKlc"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5N1vEGA1RbtWJfqOshm4iMZucBU5OCwLUBiv9Nr/"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;mv_authrev_nameaddr_contacts&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -6089,13 +6089,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_71acf38d-0bff-4436-85ea-197f77933230"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZkFh0Ym5+06LT9r39hibUM0jDXScmkqT2ga5dT91R8oB02XsjxADbZtEt2ts3WcFAcCQN7FMgW2y&#13;
-X2i55llFpA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff70f326-b8bf-4d2f-aafa-f80fe0a60bd2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EnkI8lqvrw7pFnO5tWnhAZ5acQb3vxjzuoKrl8d6f64K11GmHuowkDQHK/h5NtVXn6kj7oAuz10u&#13;
-vNHim8+WNQ==</DigestValue></Reference></SignedInfo><SignatureValue>naVAPnzTGvQ7wvLj5hqlzPvBMHWhUWqKwwJ6UyUmGJ4KViJG/rCBkVyHrITc9xYtIaRJYVcwaVuA&#13;
-YY+j71kSardJxYAjBARP0VCmwFh/zdv4BbasFRhbedgtom1u+zi5K9P599/F1CseY2jbRuAK3avW&#13;
-Tu+PK5Kee0qIciLLmdlfUGleRMbEAVO/aY6EvQeb7gTbyuYCAbT0i0XanOII6ndxRAFnAzPtc519&#13;
-T3uwaOCgvUnwQUTPRa3s5MJRD5rNFjXTPJY2mu/7AFg4lwzKUCm9fQglouOdedODlHRfH68mpLOH&#13;
-xQ+N6Avh7iUz69xG35/Jv5ys5BBjoIIdtXs8cQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b8e05ab7-7371-40c8-8e43-94435bd47f5c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OV1ZapLAqXKsqf+z7KtMVKUeKgKLRRFUPiXbr8DOfOAxKYVtU4yevVu15JZuCE35oejl39W8YdGP&#13;
+gZDiSV4ULg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_004cdf6e-772c-48c4-86ee-52291986eed1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/FNrWLDKTm51rOMFixP/tXghAxCicUnyFGATZh5+0A6EHuBWJvXBnzsPui8UlQy2tp9MlIQ5IbY/&#13;
+LNsv29nrUw==</DigestValue></Reference></SignedInfo><SignatureValue>WcP1AB/nroo2TEZWRForBYbRrDF1E4EhypP/3I0s+l9HoUnjgG9HAEYV/YLF+H5LC7OVZoFU2O56&#13;
+WVB7J3FRGnIRl65Y31HuiOX0HKHAL3tip/lXawUY4DnJgDXY1cxmpU78/jLFbO+cRiTniZZWbaQJ&#13;
+pzagaScCiARsBPagalMfBYiJa+1eX/g1JJJUqq0zZ/4iL6GhhK5Dht/zNXxPRFxNkg+WFStJC/7E&#13;
+2ghmRk+WoFNYrGfrM0kF9uUXtU9aUhpQcT63oGGDOCAw/C2DKO5DpJs+bK5PR6O9QF1kdifwy20c&#13;
+ps3gi2c8UiMGIdK4YIYVj94cjOga7vJqDWCGmw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -6117,4 +6117,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff70f326-b8bf-4d2f-aafa-f80fe0a60bd2" Target="#_71acf38d-0bff-4436-85ea-197f77933230"><Timestamp>2020-07-14 19:05:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_004cdf6e-772c-48c4-86ee-52291986eed1" Target="#_b8e05ab7-7371-40c8-8e43-94435bd47f5c"><Timestamp>2020-07-14 19:28:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
