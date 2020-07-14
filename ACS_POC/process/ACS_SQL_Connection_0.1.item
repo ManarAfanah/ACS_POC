@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:g649nxpFdP5chCHVhoSXYhRy0fEiF8x1OS/30eLY"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:baBKANsm9T14xLwkP9YgHTp8B188HdWZ1UlQ/fxD"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:bhBTg4hOiXQMDZ1bcgjrdoQA7QOYRNv/WB/a/l7e"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Y5C2Xos/7HCrpbqNtPPk5A0GcXFpQ/jOsTfxgMmD"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,7 +117,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIA4O4MSNKQWADISWPL&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:C17QnaSMQl/lbMbBkI91zEFDygEcRKvaILIlqRUJv8JWnwfqQFU6hSa/qeTWwj5isXiGnfd946yBC+4wni9YplcVzBDjKA=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:bIcdu7x/JN+YNTy6kWMRdLHg46Ll0jvqTxGjPLZ6Q40p2UTOuMeukfuIZNUsFwr7onp5v4Uf20eIZLWyPdPlepPRX2braw=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="true"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;arn:aws:iam::856603912865:role/ACS_TALEND_AssumeRole&quot;"/>
@@ -129,8 +129,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:mQJCzls2TuChxF0IZdjiK3qjBs+xfnXlQvo3hNoh"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:XK0btT7bi0pxzhPzTaMG5IHkoi51n40vJ0+wQtbU"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:ILre8m0B5bVLmNhdBDo6KXHvd+hmgPD97NDBkjQN"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:VPwjOy4oR1iAUYv+I2byIFZ7IFnUNtHbgsYEElQe"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -164,7 +164,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:qjMmU+FLcMEVOpxjbGJsONoBMqEQZL8Bm0FF8h0z"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:n/NrL+0MWSYFCHa5Bmnv00MMEb1N4HTZ0MLWYBDr"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -190,7 +190,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:YwvaX7gxvW2hK4PHx5TfPkA/YkRbHlxrcu7ICStQ"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" show="false" value="enc:system.encryption.key.v1:xIzGPbzyqiYGAUHGO5f3fdsX21mBJQ0jrBwekPul"/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -202,8 +202,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:wtc2ZOslw5xSfgsqfhpBlNNfP64Lj8dmNUzu4RMa"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:atFOY6iwVXnBRG9DF4jGgIniGx2nGI7MBxhZvQtU"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:44cUg83d5j329kQHTnfxdwxSIby8M9s12DTMCmSh"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:AnWgVEU/X2pV4CTWgnDhHXe8vvUyWK3v8XJXDWJe"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -287,7 +287,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ERDS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a7KDNmTl4JCtZj63CLxWRF+MmsbYefNpakeqAjWS64XGj7RfkcYZFDY2vQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l9YXvRxdSACE+HGIq1eemetibOjmLmkcwTNM+/N87B6RSFN5DzCTxghCug=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
@@ -417,7 +417,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:0eGb2wJC9AFg4o0zBDJPYTBmlUsQoPxEfJXFUJqh"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KGB25vw32pbNNTGIdv/km8sfR5sypXqwqoIuIRCW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;COUNTRY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -656,7 +656,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:jdCR5FMaLqLoEoM6x1Cqn4XmpyZdSHuyNcS/MmuJ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ekwDFF+dsDylggAFMgeEvG5DomWJjRDmaN9Pj9kW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;COUNTRY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -1947,9 +1947,6 @@
       <column comment="" key="false" length="100" name="MANUSCRIPT_COMMENTS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_TRANSMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="MANUSCRIPT_RUNNING_HEAD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1992,9 +1989,6 @@
       <column comment="" key="false" length="100" name="COLOR_LIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="COLUMBUS_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="COPYRIGHT_RECEIVED_COLUMBUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -2020,15 +2014,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EDITOR_OFFICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_OFFICE_ACCEPTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_REVISED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EXTERNAL_CHANGES_RECEIVED" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -2109,9 +2094,6 @@
       <column comment="" key="false" length="18" name="INTENDED_ISSUE" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="INTENDED_ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="PROOF_AUTHOR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -2170,42 +2152,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="WEB_SUBMIT_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_SUBMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_DYNAMIC_SUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_ACCEPTANCE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="REJECT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WEB_POSTING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="JAM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ASAP_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_EDITED_WEB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_MAIL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="18" name="DYNSUBTOFIRSTDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
@@ -2334,25 +2280,10 @@
       <column comment="" key="false" length="100" name="RESUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="RESUB_DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCNO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCFLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="FORM_AWAITING_COMPLETION_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -2361,22 +2292,10 @@
       <column comment="" key="false" length="100" name="UNSUBMITTED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="UNSUBMITTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="EDITOR_CHOICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_CANDIDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="2147483647" name="EDITOR_CHOICE_COMMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_READY_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_PUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="ABANDONED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -2406,9 +2325,6 @@
       <column comment="" key="false" length="18" name="ORIG_COEDITOR_ID" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="DECISION_RECOMMENDATION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="18" name="AEDECRECTOFINALDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -2436,15 +2352,6 @@
       <column comment="" key="false" length="100" name="SPECIAL_ISSUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="REVISION_DUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MSC_DELETED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WITHDRAWN_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="PRESS_RELEASE_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -2469,7 +2376,6 @@
         <mapperTableEntries expression="row5._MANUSCRIPT_TITLE_ " name="MANUSCRIPT_TITLE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._MANUSCRIPT_TITLE_ASCII_ " name="MANUSCRIPT_TITLE_ASCII" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._MANUSCRIPT_COMMENTS_ " name="MANUSCRIPT_COMMENTS" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="" name="MANUSCRIPT_TRANSMISSION_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._MANUSCRIPT_RUNNING_HEAD_ " name="MANUSCRIPT_RUNNING_HEAD" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._MANUSCRIPT_ABSTRACT_ " name="MANUSCRIPT_ABSTRACT" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._PREVIOUS_MANUSCRIPT_NUMBER_ " name="PREVIOUS_MANUSCRIPT_numeric" nullable="true" type="id_String"/>
@@ -2484,7 +2390,6 @@
         <mapperTableEntries expression="row5._COLOR_APPROVED_EDITOR_OFFICE_ " name="COLOR_APPROVED_EDITOR_OFFICE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._COLOR_QUANTITY_ " name="COLOR_QUANTITY" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._COLOR_LIST_ " name="COLOR_LIST" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row5._COLUMBUS_RECEIVED_DATE_ " name="COLUMBUS_RECEIVED_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._COPYRIGHT_RECEIVED_COLUMBUS_ " name="COPYRIGHT_RECEIVED_COLUMBUS" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._COPYRIGHT_TYPE_ " name="COPYRIGHT_TYPE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._COPYRIGHT_VALID_ " name="COPYRIGHT_VALID" nullable="true" type="id_String"/>
@@ -2494,9 +2399,6 @@
         <mapperTableEntries expression="row5._COVER_ART_ISSUE_ " name="COVER_ART_ISSUE" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._COVER_ART_GRAPHIC_ID_ " name="COVER_ART_GRAPHIC_ID" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._EDITOR_OFFICE_ " name="EDITOR_OFFICE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row5._EDITOR_OFFICE_ACCEPTED_DATE_ " name="EDITOR_OFFICE_ACCEPTED_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._EDITOR_RECEIVED_DATE_ " name="EDITOR_RECEIVED_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._EDITOR_REVISED_DATE_ " name="EDITOR_REVISED_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._EXTERNAL_CHANGES_RECEIVED_ " name="EXTERNAL_CHANGES_RECEIVED" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._EXTERNAL_CHANGES_APPROVED_ " name="EXTERNAL_CHANGES_APPROVED" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._FIGURES_QUANTITY_ " name="FIGURES_QUANTITY" nullable="true" type="id_BigDecimal"/>
@@ -2523,7 +2425,6 @@
         <mapperTableEntries expression="row5._GRAPHIC_FORMATS_ " name="GRAPHIC_FORMATS" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._INTENDED_VOLUME_ " name="INTENDED_VOLUME" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._INTENDED_ISSUE_ " name="INTENDED_ISSUE" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5._INTENDED_ISSUE_DATE_ " name="INTENDED_ISSUE_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._PROOF_AUTHOR_ID_ " name="PROOF_AUTHOR_ID" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._PROOF_AUTHOR_NAME_ " name="PROOF_AUTHOR_NAME" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._PROOF_DELIVERY_METHOD_ " name="PROOF_DELIVERY_METHOD" nullable="true" type="id_String"/>
@@ -2544,18 +2445,6 @@
         <mapperTableEntries expression="row5._PROOF_COLOR_PAGES_ " name="PROOF_COLOR_PAGES" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._PROOF_COLOR_PAGE_COUNT_ " name="PROOF_COLOR_PAGE_COUNT" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._WEB_SUBMIT_FLAG_ " name="WEB_SUBMIT_FLAG" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row5._MANUSCRIPT_SUBMISSION_DATE_ " name="MANUSCRIPT_SUBMISSION_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._MANUSCRIPT_DYNAMIC_SUB_DATE_ " name="MANUSCRIPT_DYNAMIC_SUB_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._MANUSCRIPT_ACCEPTANCE_DATE_ " name="MANUSCRIPT_ACCEPTANCE_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._REJECT_DATE_ " name="REJECT_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._FIRST_DECISION_DATE_ " name="FIRST_DECISION_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._DECISION_DATE_ " name="DECISION_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._WEB_POSTING_DATE_ " name="WEB_POSTING_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="" name="JAM_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._ASAP_DATE_ " name="ASAP_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._FIRST_EDITED_WEB_DATE_ " name="FIRST_EDITED_WEB_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._ISSUE_MAIL_DATE_ " name="ISSUE_MAIL_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._ISSUE_DATE_ " name="ISSUE_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._DYNSUBTOFIRSTDEC_DAYS_ " name="DYNSUBTOFIRSTDEC_DAYS" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._DYNSUBTOFIRSTDEC_TYPE_ " name="DYNSUBTOFIRSTDEC_TYPE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._DYNSUBTOFINALDEC_DAYS_ " name="DYNSUBTOFINALDEC_DAYS" nullable="true" type="id_BigDecimal"/>
@@ -2598,21 +2487,12 @@
         <mapperTableEntries expression="row5._JAM_FLAG_ " name="JAM_FLAG" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._NEWSWORTHY_COMMENT_ " name="NEWSWORTHY_COMMENT" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._RESUB_TYPE_ " name="RESUB_TYPE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row5._RESUB_DUEDATE_ " name="RESUB_DUEDATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._RESUBMIT_DOCNO_ " name="RESUBMIT_DOCNO" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._RESUBMIT_DOCFLAG_ " name="RESUBMIT_DOCFLAG" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="" name="ORIG_PROOF_LINK_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="" name="PROOF_LINK_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._ORIG_PROOF_COMMENTS_RCVD_DATE_ " name="ORIG_PROOF_COMMENTS_RCVD_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row5._PROOF_COMMENTS_RCVD_DATE_ " name="PROOF_COMMENTS_RCVD_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._FORM_AWAITING_COMPLETION_FLAG_ " name="FORM_AWAITING_COMPLETION_FLAG" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._UNSUBMITTED_FLAG_ " name="UNSUBMITTED_FLAG" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="" name="UNSUBMITTED_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._EDITOR_CHOICE_ " name="EDITOR_CHOICE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="" name="EDITOR_CHOICE_CANDIDATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._EDITOR_CHOICE_COMMENT_ " name="EDITOR_CHOICE_COMMENT" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="" name="EDITOR_CHOICE_READY_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="" name="EDITOR_CHOICE_PUB_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._ABANDONED_FLAG_ " name="ABANDONED_FLAG" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._RESUBMIT_ID_ " name="RESUBMIT_ID" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._NO_FUNDER_FLAG_ " name="NO_FUNDER_FLAG" nullable="true" type="id_String"/>
@@ -2622,7 +2502,6 @@
         <mapperTableEntries expression="row5._COEDITOR_ID_ " name="COEDITOR_ID" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._ORIG_EDITOR_ID_ " name="ORIG_EDITOR_ID" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._ORIG_COEDITOR_ID_ " name="ORIG_COEDITOR_ID" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row5._DECISION_RECOMMENDATION_DATE_ " name="DECISION_RECOMMENDATION_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._AEDECRECTOFINALDEC_DAYS_ " name="AEDECRECTOFINALDEC_DAYS" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row5._AEDECRECTOFINALDEC_TYPE_ " name="AEDECRECTOFINALDEC_TYPE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._AEDECRECTOACCEPT_DAYS_ " name="AEDECRECTOACCEPT_DAYS" nullable="true" type="id_BigDecimal"/>
@@ -2632,9 +2511,6 @@
         <mapperTableEntries expression="row5._ADDITIONAL_PRODINFO_FLAG_ " name="ADDITIONAL_PRODINFO_FLAG" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._SECTION_ " name="SECTION" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._SPECIAL_ISSUE_ " name="SPECIAL_ISSUE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row5._REVISION_DUE_DATE_ " name="REVISION_DUE_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="" name="MSC_DELETED_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="" name="WITHDRAWN_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row5._PRESS_RELEASE_FLAG_ " name="PRESS_RELEASE_FLAG" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row5._PRESS_RELEASE_COMMENT_ " name="PRESS_RELEASE_COMMENT" nullable="true" type="id_String"/>
       </outputTables>
@@ -2834,7 +2710,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ndgp3AGbsx0+zM3xMbHTkgF7bPfbSsLA9beUk+Ds"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:uDP8fmPw2nePh6HkepvKiuUOIbtgHvPXuzOXpqlR"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MV_MANUSCRIPT&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -2923,11 +2799,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANUSCRIPT_TRANSMISSION_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MANUSCRIPT_RUNNING_HEAD"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -2998,11 +2869,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COLUMBUS_RECEIVED_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="COPYRIGHT_RECEIVED_COLUMBUS"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -3044,21 +2910,6 @@
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_OFFICE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_OFFICE_ACCEPTED_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_RECEIVED_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_REVISED_DATE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -3193,11 +3044,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INTENDED_ISSUE_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PROOF_AUTHOR_ID"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -3294,66 +3140,6 @@
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="WEB_SUBMIT_FLAG"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANUSCRIPT_SUBMISSION_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANUSCRIPT_DYNAMIC_SUB_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANUSCRIPT_ACCEPTANCE_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="REJECT_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_DECISION_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DECISION_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="WEB_POSTING_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JAM_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASAP_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_EDITED_WEB_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ISSUE_MAIL_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ISSUE_DATE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -3568,37 +3354,12 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RESUB_DUEDATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="RESUBMIT_DOCNO"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="RESUBMIT_DOCFLAG"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ORIG_PROOF_LINK_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROOF_LINK_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ORIG_PROOF_COMMENTS_RCVD_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROOF_COMMENTS_RCVD_DATE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -3613,32 +3374,12 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="UNSUBMITTED_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_CHOICE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_CHOICE_CANDIDATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_CHOICE_COMMENT"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_CHOICE_READY_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EDITOR_CHOICE_PUB_DATE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -3688,11 +3429,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DECISION_RECOMMENDATION_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="AEDECRECTOFINALDEC_DAYS"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -3734,21 +3470,6 @@
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SPECIAL_ISSUE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="REVISION_DUE_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MSC_DELETED_DATE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="WITHDRAWN_DATE"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -3810,9 +3531,6 @@
       <column comment="" key="false" length="100" name="MANUSCRIPT_COMMENTS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_TRANSMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="MANUSCRIPT_RUNNING_HEAD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -3855,9 +3573,6 @@
       <column comment="" key="false" length="100" name="COLOR_LIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="COLUMBUS_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="COPYRIGHT_RECEIVED_COLUMBUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -3883,15 +3598,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EDITOR_OFFICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_OFFICE_ACCEPTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_REVISED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EXTERNAL_CHANGES_RECEIVED" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -3972,9 +3678,6 @@
       <column comment="" key="false" length="18" name="INTENDED_ISSUE" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="INTENDED_ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="PROOF_AUTHOR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4033,42 +3736,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="WEB_SUBMIT_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_SUBMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_DYNAMIC_SUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_ACCEPTANCE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="REJECT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WEB_POSTING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="JAM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ASAP_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_EDITED_WEB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_MAIL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="18" name="DYNSUBTOFIRSTDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
@@ -4197,25 +3864,10 @@
       <column comment="" key="false" length="100" name="RESUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="RESUB_DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCNO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCFLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="FORM_AWAITING_COMPLETION_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4224,22 +3876,10 @@
       <column comment="" key="false" length="100" name="UNSUBMITTED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="UNSUBMITTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="EDITOR_CHOICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_CANDIDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="2147483647" name="EDITOR_CHOICE_COMMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_READY_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_PUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="ABANDONED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4269,9 +3909,6 @@
       <column comment="" key="false" length="18" name="ORIG_COEDITOR_ID" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="DECISION_RECOMMENDATION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="18" name="AEDECRECTOFINALDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4297,15 +3934,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="SPECIAL_ISSUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="REVISION_DUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MSC_DELETED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WITHDRAWN_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="PRESS_RELEASE_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4355,9 +3983,6 @@
       <column comment="" key="false" length="100" name="MANUSCRIPT_COMMENTS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_TRANSMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="MANUSCRIPT_RUNNING_HEAD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4400,9 +4025,6 @@
       <column comment="" key="false" length="100" name="COLOR_LIST" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="COLUMBUS_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="COPYRIGHT_RECEIVED_COLUMBUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4428,15 +4050,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EDITOR_OFFICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_OFFICE_ACCEPTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_RECEIVED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_REVISED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="EXTERNAL_CHANGES_RECEIVED" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4517,9 +4130,6 @@
       <column comment="" key="false" length="18" name="INTENDED_ISSUE" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="INTENDED_ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="PROOF_AUTHOR_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4578,42 +4188,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="WEB_SUBMIT_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_SUBMISSION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_DYNAMIC_SUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MANUSCRIPT_ACCEPTANCE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="REJECT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="DECISION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WEB_POSTING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="JAM_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ASAP_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="FIRST_EDITED_WEB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_MAIL_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ISSUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="18" name="DYNSUBTOFIRSTDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
@@ -4742,25 +4316,10 @@
       <column comment="" key="false" length="100" name="RESUB_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="RESUB_DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCNO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="RESUBMIT_DOCFLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_LINK_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ORIG_PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PROOF_COMMENTS_RCVD_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="FORM_AWAITING_COMPLETION_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4769,22 +4328,10 @@
       <column comment="" key="false" length="100" name="UNSUBMITTED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="UNSUBMITTED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="100" name="EDITOR_CHOICE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_CANDIDATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="2147483647" name="EDITOR_CHOICE_COMMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_READY_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EDITOR_CHOICE_PUB_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="ABANDONED_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -4814,9 +4361,6 @@
       <column comment="" key="false" length="18" name="ORIG_COEDITOR_ID" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="DECISION_RECOMMENDATION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="18" name="AEDECRECTOFINALDEC_DAYS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -4842,15 +4386,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="SPECIAL_ISSUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="REVISION_DUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="MSC_DELETED_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="WITHDRAWN_DATE" nullable="true" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="PRESS_RELEASE_FLAG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -5088,7 +4623,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6p3G65f+XAMlKpv9p7N8slE6oHjPxtAl6eNfOLES"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:x085Dln7V4DCUEk1FA0ny9qatMJLwzqeVlJEZqeq"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Journal&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -5646,7 +5181,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2lVuRN1DA1X8AovKzpLqZ/BPT2PSfj/Ps6VjU359"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9Nkn7kDYzvs3D/3toWk4nNaOJ9qy0eK2RjpaIReN"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;mv_authrev_nameaddr_contacts&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -7445,13 +6980,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9e2ba7c5-a50a-4e57-854f-28dfded90bf1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UYJcud1EZw23s2d/5Y9zsb0Y+GgEO3tGDD0WFCX+IHUnO1s2f64+vjRPcpNG6pMhvAATwbs0NEov&#13;
-SBg1CMLr4w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a7822e44-f027-4bad-bb80-7b3efb180c8f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2vuXcjdH/TrL6bSiugt+oJdEuB8115J5JAfm1AJoCxoPHMASwfvZxQGMMQyR5wNCDzktazd/oyL8&#13;
-GIYnl1K9Sg==</DigestValue></Reference></SignedInfo><SignatureValue>L4A5HC02T5BwBk+h2Azl0gkfX7o14CBK5x1rCBX98Zb073JWqrfN+RL/odftf+zk9DGd4lJ+Hrmw&#13;
-A/ns3iqJhMQiTZ/siWwPD3rMyjTRRGIC8G1DkCc/Fu6LZ4EZZI/RdCIUiSEgz9c3ERpou3WKpLwP&#13;
-wF9smpMkk1uB4e+shJXb3wvY63JiqVYntZTZvpDd1Q/DIWOrRxUWHV9L+TJ/Nvcrvt7xeh/hAV8W&#13;
-2hMmXMDObM2yj6hHXGV+foDw0//FsaFdNyIPchQf0tpkj3Yu2o6iqRpT3kLxXM8xrw4NmBBEmmsu&#13;
-NOPseBXqYJTWNFKNMZtjJmYMeiQAPE4xPw2jjQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c4eeb66d-f075-49ca-9424-9c40582f78f2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PazQNEnIBzGz2Nxt0wdGIpO6d438sdryvT3sYfw/ZxzUyKyMpuxCel2daFOFnHcKvNKxOnniMNe3&#13;
+elO6dKk9Dg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c1129e9b-2fa6-4d6f-aee7-f4a82bb3ebaf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bbf/RoEuweuP9sQ3O+j06Zilx8G2F4BteE5jWxhV0HPy2D8D8M5WUso48jDY3aZbFLRadkmkLN/5&#13;
+5M+BXGQL0g==</DigestValue></Reference></SignedInfo><SignatureValue>oaolxTHGJORKXmiyOdj1CctooxjTyVzBgQv85i1KPMeCw7aKsfVaRNk7CuFb8wyGkG4pT/zGJ8NN&#13;
+egoB9yMFs2RzAunGZI7Z86tY6yiQldoeqj2OgMzlJWmbKfz3xBHQXM2iA9QAJe8VkRnJvuRUrYan&#13;
+eJAlaSlPPUicsI/tfYhOEh1JniW22ZlIh7oG84JDwoog4e6qcQBu7Rr8BSRFKnje8gfTm0HeqCsG&#13;
+F/19dw0iX5udNK0svwWSlVycqQjD3Oh8Z8PwbXaZmXEs4uIdCXtIqElYSgYcMpsLfcPFcfLRtm8+&#13;
+5DRsHsOZeTxOsVcSDsYbt2in+qB2/dlXEPXz+A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -7473,4 +7008,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a7822e44-f027-4bad-bb80-7b3efb180c8f" Target="#_9e2ba7c5-a50a-4e57-854f-28dfded90bf1"><Timestamp>2020-07-14 20:09:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c1129e9b-2fa6-4d6f-aee7-f4a82bb3ebaf" Target="#_c4eeb66d-f075-49ca-9424-9c40582f78f2"><Timestamp>2020-07-14 20:12:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
