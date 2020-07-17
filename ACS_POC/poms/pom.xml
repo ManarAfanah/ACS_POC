@@ -315,6 +315,7 @@
     <module>jobs/process/ACS_DW/documentlistbusinessrule_emailsnotnull_0.1</module>
     <module>jobs/process/acs_sql_connection_0.1</module>
     <module>jobs/process/acs_sql_0.1</module>
+    <module>jobs/process/ACS_DW/loadingreviewintosnowflake_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
