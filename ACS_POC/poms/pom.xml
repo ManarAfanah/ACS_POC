@@ -309,7 +309,6 @@
     <module>jobs/process/ACS_ODS/namesroster_loadfroms3tosnowflake_0.1</module>
     <module>jobs/process/ACS_DW/namesrostertransformation_odstodw_0.1</module>
     <module>jobs/process/ACS_ODS/documentlist_loadfroms3tosnowflake_0.1</module>
-    <module>jobs/process/ACS_DW/documentlisttransformation_odstodw_0.1</module>
     <module>jobs/process/ACS_Logs/documentlistlogs_0.1</module>
     <module>jobs/process/ACS_Logs/documentlistlog2_0.1</module>
     <module>jobs/process/ACS_DW/documentlistbusinessrule_emailsnotnull_0.1</module>
@@ -317,6 +316,7 @@
     <module>jobs/process/acs_sql_0.1</module>
     <module>jobs/process/ACS_DW/loadingreviewintosnowflake_0.1</module>
     <module>jobs/process/ACS_ODS/acs_masterjob_template_0.1</module>
+    <module>jobs/process/ACS_DW/namesroster_odstodw_transformations_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
