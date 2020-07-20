@@ -317,6 +317,7 @@
     <module>jobs/process/ACS_DW/loadingreviewintosnowflake_0.1</module>
     <module>jobs/process/ACS_ODS/acs_masterjob_template_0.1</module>
     <module>jobs/process/ACS_DW/namesroster_odstodw_transformations_0.1</module>
+    <module>jobs/process/refreshtableauextract_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
